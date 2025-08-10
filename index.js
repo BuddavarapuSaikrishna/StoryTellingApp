@@ -25,6 +25,7 @@ function displayStory(genre) {
   if (storyObj.hasOwnProperty(genre)) {
     resultParagraph.textContent = storyObj[genre].story;
     storyContainer.style.borderColor = storyObj[genre].borderColor;
+    resultParagraph.style.color = storyObj[genre].borderColor;
     
 }
 }
